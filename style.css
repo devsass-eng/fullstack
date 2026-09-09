@@ -1,0 +1,51 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.main-con {
+    background-color: rgb(196, 198, 200);
+    display: flex;
+    margin: 3% 10%;
+    border-radius: 10px;
+    height: 650px;
+}
+.left {
+    background-color: blue;
+    width: 20%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    display: block;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+.con-header {
+    background-color: blue;
+    height: 15%;
+    margin: 2% 3%;
+    border-radius: 10px;
+
+}
+.logo {
+    height: 15%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.logo img {
+    border-radius: 10px;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
